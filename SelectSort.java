@@ -6,8 +6,6 @@ public class SelectSort {
         a = new long[max];
         elements = 0;
     }
-//    celta e da imame samo onolku premestuvanja
-//    na elementite vo nizata, vo memorijata kolku sto ima elementi -1
 
     public void display(){
         for (int j = 0; j<elements; j++)
@@ -19,9 +17,8 @@ public class SelectSort {
         elements++;
     }
     public void selectionSort(){
-//       create logic for sorting element on the way that lowest element value inside array put on the initial, zero index position.
-//        and stop compare this element with anothers...
-        int out, in, lowest;
+
+      int out, in, lowest;
 
         for (out = 0; out<elements-1; out++) {
             lowest = out;
